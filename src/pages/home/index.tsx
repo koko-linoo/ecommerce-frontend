@@ -1,16 +1,20 @@
-import { Stack } from "@mantine/core";
+import { Divider, Stack } from "@mantine/core";
 import { Banner } from "./Carousel";
 import { CategoryList } from "./category/CategoryList";
-import { FeatureProducts } from "./product/FeatureProducts";
-import { LatestProducts } from "./product/LatestProducts";
+import { BestSeller } from "./product/BestSeller";
+import { NewArrival } from "./product/NewArrival";
+import { Values } from "./Values";
 
 export function HomePage() {
   return (
     <Stack>
       <Banner />
       <CategoryList />
-      <FeatureProducts />
-      <LatestProducts />
+      <BestSeller />
+      <Divider />
+      <NewArrival />
+      <Divider />
+      <Values />
     </Stack>
   );
 }

@@ -2,7 +2,7 @@ import { Button, Card, Image, Stack, Text } from "@mantine/core";
 
 export function ProductItem() {
   return (
-    <Card shadow="sm" withBorder w={240}>
+    <Card shadow="xl" withBorder radius="xs">
       <Card.Section>
         <Image
           src="https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-8.png"

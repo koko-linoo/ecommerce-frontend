@@ -32,7 +32,7 @@ export function Header() {
             <NavMenu label="Best Sellers" to="/best-sellers" />
           </Flex>
         </Flex>
-        <Flex gap="xs">
+        <Flex>
           <Search />
           <SignInButton />
         </Flex>

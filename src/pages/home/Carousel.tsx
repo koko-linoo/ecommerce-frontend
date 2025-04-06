@@ -1,10 +1,13 @@
+import classes from "./style.module.css";
+
 import { Carousel } from "@mantine/carousel";
-import { Center } from "@mantine/core";
+import { BackgroundImage, Center } from "@mantine/core";
 import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
 
 export function Banner() {
   return (
     <Carousel
+      classNames={classes}
       loop
       slideGap="sm"
       withIndicators
@@ -24,21 +27,35 @@ export function Banner() {
       }}
     >
       <Carousel.Slide>
-        <Center h="100%" p="md" bg="primary" c="white">
-          <h1>Slide 1</h1>
-        </Center>
+        <BackgroundImage
+          h="100%"
+          src="https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-1.png"
+        >
+          <Center h="100%" c="white">
+            <h1>Slide 1</h1>
+          </Center>
+        </BackgroundImage>
       </Carousel.Slide>
       <Carousel.Slide>
-        <Center h="100%" p="md" bg="primary" c="white">
-          <h1>Slide 2</h1>
-        </Center>
+        <BackgroundImage
+          h="100%"
+          src="https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-1.png"
+        >
+          <Center h="100%" c="white">
+            <h1>Slide 2</h1>
+          </Center>
+        </BackgroundImage>
       </Carousel.Slide>
       <Carousel.Slide>
-        <Center h="100%" p="md" bg="primary" c="white">
-          <h1>Slide 3</h1>
-        </Center>
+        <BackgroundImage
+          h="100%"
+          src="https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-1.png"
+        >
+          <Center h="100%" c="white">
+            <h1>Slide 3</h1>
+          </Center>
+        </BackgroundImage>
       </Carousel.Slide>
-      {/* ...other slides */}
     </Carousel>
   );
 }
