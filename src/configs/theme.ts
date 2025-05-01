@@ -3,7 +3,7 @@ import { createTheme } from "@mantine/core";
 
 const theme = createTheme({
   focusRing: "never",
-  fontFamily: "Verdana !important",
+  fontFamily: "Verdana, sans-serif",
   primaryColor: "primary",
   colors: {
     primary: generateColors("#25282F"),
@@ -13,27 +13,7 @@ const theme = createTheme({
     from: "red",
     to: "blue",
   },
-  components: {
-    Flex: {
-      defaultProps: {
-        align: "center",
-      },
-    },
-    NavLink: {
-      defaultProps: {
-        styles: {
-          body: {
-            display: "block",
-            width: "max-content",
-          },
-          label: {
-            fontSize: "0.8rem",
-            color: "gray",
-          },
-        },
-      },
-    },
-  },
+  components: {},
 });
 
 export default theme;

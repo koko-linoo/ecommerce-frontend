@@ -1,7 +1,7 @@
 import { Button, Center, Grid, Stack, Title } from "@mantine/core";
 import { ProductItem } from "./ProductItem";
 
-export function BestSeller() {
+export default function BestSeller() {
   return (
     <Stack gap="xl">
       <Title order={2} fw="bolder" ta="center" mt="xl">

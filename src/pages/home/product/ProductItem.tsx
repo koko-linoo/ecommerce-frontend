@@ -6,7 +6,7 @@ export function ProductItem() {
       <Card.Section>
         <Image
           src="https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-8.png"
-          height={120}
+          height={200}
           alt="Norway"
         />
       </Card.Section>

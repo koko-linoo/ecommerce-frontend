@@ -1,9 +1,9 @@
 import { Button, Center, Grid, Stack, Title } from "@mantine/core";
 import { ProductItem } from "./ProductItem";
 
-export function NewArrival() {
+export default function NewArrival() {
   return (
-    <Stack gap="xl">
+    <Stack gap="xl" mb="xl">
       <Title order={2} fw="bolder" ta="center" mt="xl">
         NEW ARRIVALS
       </Title>

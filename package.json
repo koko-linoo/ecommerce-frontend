@@ -21,6 +21,7 @@
     "@tabler/icons-react": "^3.31.0",
     "@tanstack/react-query": "^5.69.0",
     "axios": "^1.8.4",
+    "embla-carousel-autoplay": "^7.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.4.0",

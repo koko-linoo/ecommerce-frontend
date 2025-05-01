@@ -3,14 +3,21 @@ import classes from "./style.module.css";
 import { Carousel } from "@mantine/carousel";
 import { BackgroundImage, Center } from "@mantine/core";
 import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
+import Autoplay from "embla-carousel-autoplay";
+import { useRef } from "react";
 
-export function Banner() {
+export default function Banner() {
+  const autoplay = useRef(Autoplay({ delay: 5000 }));
+
   return (
     <Carousel
-      classNames={classes}
       loop
-      slideGap="sm"
       withIndicators
+      slideGap="sm"
+      plugins={[autoplay.current]}
+      onMouseEnter={autoplay.current.stop}
+      onMouseLeave={autoplay.current.reset}
+      classNames={classes}
       height="calc(100vh - var(--app-shell-header-height) - var(--mantine-spacing-md))"
       controlSize={40}
       nextControlIcon={<IconChevronRight />}

@@ -16,7 +16,7 @@ export function SignUpPage({ onClickSignIn }: { onClickSignIn?: () => void }) {
       <Flex align="center">
         <Text fz="xs">Already have an account?</Text>
         <Button px="xs" size="xs" variant="transparent" onClick={onClickSignIn}>
-          Sign In
+          Login
         </Button>
       </Flex>
       <TextInput label="Username" placeholder="Username" />
@@ -28,7 +28,7 @@ export function SignUpPage({ onClickSignIn }: { onClickSignIn?: () => void }) {
         type="password"
       />
       <Checkbox label="I agree with the terms and conditions" />
-      <Button>Sign Up</Button>
+      <Button>Submit</Button>
     </Stack>
   );
 }

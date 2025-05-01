@@ -17,7 +17,7 @@ const categories = [
   "Home & Kitchen",
 ];
 
-export function CategoryList() {
+export default function CategoryList() {
   const theme = useMantineTheme();
   const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
   const desktop = useMediaQuery(`(max-width: ${theme.breakpoints.lg})`);

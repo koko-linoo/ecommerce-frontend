@@ -27,6 +27,7 @@ export function Header() {
             Ecommerce
           </Text>
           <Flex visibleFrom="md">
+            <NavMenu label="Home" to="/" />
             <NavMenu label="Shop" to="/shop" />
             <NavMenu label="New Arrivals" to="/new-arrivals" />
             <NavMenu label="Best Sellers" to="/best-sellers" />

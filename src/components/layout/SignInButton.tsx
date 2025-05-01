@@ -12,7 +12,7 @@ export function SignInButton() {
         variant="transparent"
         onClick={() => stack.open("signIn")}
       >
-        Sign In / Up
+        Login
       </Button>
       <Modal.Stack>
         <Modal

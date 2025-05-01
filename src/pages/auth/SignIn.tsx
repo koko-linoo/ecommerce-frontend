@@ -26,7 +26,7 @@ export function SignInPage({ onClickSignUp }: { onClickSignUp?: () => void }) {
         </Center>
       </BackgroundImage>
       <Stack flex="4" p="md">
-        <Title order={2}>Sign In</Title>
+        <Title order={2}>Login</Title>
         <Flex align="center">
           <Text fz="xs">Don't have an account yet?</Text>
           <Button
@@ -45,7 +45,7 @@ export function SignInPage({ onClickSignUp }: { onClickSignUp?: () => void }) {
           type="password"
         />
         <Checkbox label="I agree with the terms and conditions" />
-        <Button>Sign In</Button>
+        <Button>Submit</Button>
       </Stack>
     </Flex>
   );

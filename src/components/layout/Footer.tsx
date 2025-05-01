@@ -72,7 +72,7 @@ export function Footer() {
           </Grid.Col>
         </Grid>
         <Divider />
-        <Stack align="center" hiddenFrom="md" mb="xl">
+        <Stack align="center" hiddenFrom="md" my="xl">
           <Flex gap="xs">
             <Box>© 2025 Ecommerce</Box>
             <Box>All rights reserved</Box>
@@ -82,7 +82,7 @@ export function Footer() {
             <Box>Terms of Service</Box>
           </Flex>
         </Stack>
-        <Group justify="space-between" mb="xl" visibleFrom="md">
+        <Group justify="space-between" my="xl" visibleFrom="md">
           <Flex gap="xs">
             <p>© 2025 Ecommerce</p>
             <p>All rights reserved</p>
